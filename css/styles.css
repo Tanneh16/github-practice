@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+    
+    background-image: linear-gradient(180deg, black 0%, silver 20%, crimson 40%, white 60%, silver 80%, crimson 100%);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+.hello{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: silver;
+  position: sticky;
+  top: 0px;
+}
+
+.hero{
+    height: 130px;
+    width: 100vw;
+    background-image: url("../img/jorg-angeli-CAMwIxYk5Xg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.profile{
+    width: 350px;
+    height: 350px;
+}
+
+.jason{
+    width: 350px;
+    height: 350px;
+}
+
+.natahlia{
+    width: 350px;
+    height: 350px;
+}
+
+.iyana{
+    width: 350px;
+    height: 350px;
+}
+
+.friends{
+    width: 350px;
+    height: 350px;
+}
+
+.nightshift{
+    width: 350px;
+    height: 350px;
+}
+
+.childbirth{
+    width: 350px;
+    height: 350px;
+}
+
+
+.inspire{
+    padding: 50px;
+    margin: 100px;
+}
+
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+    text-shadow: blanchedalmond;}
+h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-shadow: blanchedalmond;}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size: 30px;
+}
+
+li {
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 16pt;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+a:link {
+  text-decoration: none;
+  color:skyblue;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.contact1{
+
+    border-radius: 15px;
+    border-color: black;
+    background-image: linear-gradient(180deg, gold 0% , silver 50%, gold 100%);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    width: 45%;
+    margin: auto;
+}
+
+.maps{
+    padding: 50px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 120px;
+}

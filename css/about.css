@@ -1,0 +1,39 @@
+body{
+    background: rgb(0,158,228);
+    background: linear-gradient(180deg, rgba(0,158,228,1) 0%,white 25%, rgba(253,217,45,1) 50%), white 75%,rgba(0,158,228,1) 100%;
+    background-repeat: no-repeat;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: silver;
+    position: sticky;
+    top: 0px;
+  }
+  
+  li {
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 16pt;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color:skyblue;
+  }
+  
+  a:visited {
+    color: gold;
+  }
+  
+  a:hover {
+    background-color: skyblue;
+  }
+  footer{
+    text-align: center;
+}
